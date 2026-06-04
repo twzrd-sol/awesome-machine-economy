@@ -65,7 +65,7 @@ Each layer below maps to a part of this stack.
 - [SIWE (Sign-In with Ethereum)](https://login.xyz/) - Authentication standard for Ethereum wallets. Foundation for agent auth flows.
 - [W3C Decentralized Identifiers](https://www.w3.org/TR/did-core/) - Self-sovereign identity standard. Underlies many agent identity systems.
 - [W3C Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) - Cryptographically verifiable claims. Used by Google AP2 for agent authorization.
-- [ZKProofport](https://zkproofport.app) - Zero-knowledge proof generation for AI agent identity. Prove Coinbase KYC, Country, Google OIDC, Google Workspace, or Microsoft 365 affiliation without revealing personal data. AWS Nitro Enclave TEE proving, x402-paid, ERC-8004 registered. ([Agent MCP](https://www.npmjs.com/package/@zkproofport-ai/mcp) | [GitHub](https://github.com/zkproofport/proofport-ai))
+- [ZKProofport](https://zkproofport.app) - Zero-knowledge proof generation for AI agent identity. Prove Coinbase KYC, Country, Google OIDC, Google Workspace, or Microsoft 365 affiliation without revealing personal data. AWS Nitro Enclave TEE proving, x402-paid, ERC-8004 registered. ([Agent MCP](https://www.npmjs.com/package/@zkproofport-ai/mcp))
 
 ### Full-Stack Trust Infrastructure
 
