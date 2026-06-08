@@ -152,6 +152,7 @@ The HTTP-native payment protocol. Server returns 402 with payment requirements, 
 - [Gitcoin Passport](https://passport.gitcoin.co/) - Sybil-resistance via composable identity stamps. Aggregate proofs into a single score.
 - [DegenScore](https://degenscore.com/) - On-chain reputation for DeFi. Soulbound tokens as proof of expertise.
 - [Orange Protocol](https://orangeprotocol.io/) - Reputation and trust infrastructure. Composable reputation models.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - On-chain behavioral trust scoring for Solana agents. Aggregates transaction history, x402 payment success rates, and wallet age into a trust score. MCP: `score_agent(wallet)`, `preflight_check(wallet)` free; `get_trust_receipt(wallet)` via x402.
 
 ---
 
@@ -198,6 +199,7 @@ The HTTP-native payment protocol. Server returns 402 with payment requirements, 
 - [Stripe Agent Toolkit](https://github.com/stripe/agent-toolkit) - Payment processing, invoicing, subscriptions.
 - [Uniswap MCP](https://github.com/uniswap) - DEX swaps and liquidity.
 - [1inch MCP](https://1inch.io/) - DEX aggregator for optimal swap routing.
+- [TWZRD Agent Intel MCP](https://intel.twzrd.xyz) - Trust scoring for Solana agent wallets. Free preflight, paid signed receipts via x402. Config: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 - [Aave MCP](https://aave.com/) - Lending and borrowing protocol tools.
 
 > See [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) for the comprehensive MCP directory.
